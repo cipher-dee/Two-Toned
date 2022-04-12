@@ -1,7 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {    
+    font-family: 'Inter', sans-serif;
+    color: #55899c;
+ 
+}
+
+nav {
+    padding: 1%;
+}
+
 nav li {
     /* display: inline-block; */
     display: inline;
     float: right;
-    padding: 0 1% 0 0;
+    padding: 1% 1% 0 0;
+    /* background-color: aliceblue; */
+}
+
+#top {
+    position: relative;
+    background-color: #80cfec;
+
+    height: 600px;
     
 }
+
+#top h1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+#bottom {
+    position: relative;
+    padding: 1%;
+    height: 600px;
+    background-color: #eccc80;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+ }
