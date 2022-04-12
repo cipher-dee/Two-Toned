@@ -1,0 +1,7 @@
+nav li {
+    /* display: inline-block; */
+    display: inline;
+    float: right;
+    padding: 0 1% 0 0;
+    
+}
