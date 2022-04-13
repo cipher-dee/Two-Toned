@@ -24,17 +24,27 @@ nav li {
 #top {
     position: relative;
     background-color: #80cfec;
-
     height: 600px;
-    
+    border-bottom-left-radius: 2em;
+}
+
+#bottom-corner {
+    background-color: #eccc80;
+    color: #eccc80;
+    display: block;
+    height: 30px;
+    width: 30px;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 #top h1 {
     width: 100%;
-    margin: 0 auto;
     text-align: center;
     position: relative;
-    top: 300px;
+    top: 200px;
     font-weight: 800;
     font-size: 70px;
 }
@@ -44,7 +54,22 @@ nav li {
     padding: 1%;
     height: 600px;
     background-color: #eccc80;
+    border-top-right-radius: 2em;
 }
+
+
+#top-corner {
+    background-color: #80cfec;
+    color: #80cfec;
+    display: block;
+    height: 30px;
+    width: 30px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 
 footer {
     position: absolute;
